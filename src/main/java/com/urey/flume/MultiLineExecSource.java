@@ -363,7 +363,8 @@ public class MultiLineExecSource extends AbstractSource implements EventDrivenSo
 								}
 								buffer.add(line);
 							}else {
-								buffer.add(line);
+//                                buffer.add(System.getProperty("line.separator", "\n") + line);
+                                buffer.add("<br>" + line);
 							}
 							//multiline setting end
 						}

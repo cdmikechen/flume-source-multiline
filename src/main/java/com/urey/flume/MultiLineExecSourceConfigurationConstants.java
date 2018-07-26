@@ -29,5 +29,5 @@ public class MultiLineExecSourceConfigurationConstants {
 	 * Every log starts with regex matched string is considered as a flume event
 	 */
 	public static final String REGEX = "lineStartRegex";
-	public static final String DEFAULT_REGEX = "\\s?\\d\\d\\d\\d-\\d\\d-\\d\\d\\s\\d\\d:\\d\\d:\\d\\d,\\d\\d\\d";
+	public static final String DEFAULT_REGEX = "^\\s?\\d\\d\\d\\d-\\d\\d-\\d\\d\\s\\d\\d:\\d\\d:\\d\\d.\\d\\d\\d";
 }
